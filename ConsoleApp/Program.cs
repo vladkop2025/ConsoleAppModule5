@@ -10,6 +10,9 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
+            /* Модуль 5. Методы в C# 
+
+            */
         }
     }
 }
