@@ -30,15 +30,20 @@ namespace ConsoleApp
 
             //Итоговый проект 5.6.1 (HW-03)
 
+            /* можно было и так - и наверное это было бы правильнее
+            (string name, string lastname, int age, bool haspet) User = (null, null, 0, false);
+            User = GetUserFromConsoleNew(User);
+            */
+
             // Получаем кортеж из метода - описание кортежа Имя; Фамилия; Возраст; Наличие питомца;
             var user = GetUserFromConsole(); // (string name, string lastname, int age, bool haspet) User;
 
             /*Если питомец есть, то запросить количество питомцев и вызвать метод, принимающий на вход
               количество питомцев и возвращающий массив их кличек(заполнение с клавиатуры);
             */
-            int CntPet;    
+            int CntPet;
 
-            if (user.haspet == false) //Было введено Д
+            if (user.haspet == false) //Было введено Да
             {
                 //Проверяем ввод количество питомцев
                 do
