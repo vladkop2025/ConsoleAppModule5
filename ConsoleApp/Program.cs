@@ -59,14 +59,8 @@ namespace ConsoleApp
             } while (CheckNum(Console.ReadLine(), out cnt_favcolors));
             string[] favcolors = CreateArray(cnt_favcolors);
 
-            //Метод, который принимает кортеж из предыдущего шага и показывает на экран данные
+            //Метод, который принимает кортеж user и показывает на экран данные
             DisplayUserValue(user.name, user.lastname, user.age, user.haspet);
-            /*
-            Console.WriteLine("Имя: {0}", user.name);
-            Console.WriteLine("Фамилия: {0}", user.lastname);
-            Console.WriteLine("Возраст: {0}", user.age);
-            Console.WriteLine("Наличие питомца: {0}", user.haspet);
-            */
 
             Console.ReadKey();
         }
